@@ -30,6 +30,9 @@ export const config: Config = {
           src: "./**/*.html",
         },
         {
+          src: "./assets/*",
+        },
+        {
           src: "./data/*",
         },
         {
