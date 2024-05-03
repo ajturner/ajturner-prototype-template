@@ -36,7 +36,7 @@
     "@types/node": "^18.14.0"
   },
   "devDependencies": {
-    "@esri/calcite-components": "^1.2.0",
+    "@esri/calcite-components": "^2.8.0",
     "@stencil/sass": "^2.0.0",
     "@stencil/store": "^2.0.1"
   },

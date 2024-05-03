@@ -7,8 +7,14 @@ Template for creating prototypes with Stencil.js and Calcite compnents
 1. clone repo to your developer machine
 1. find and replace the string `REPLACE_PROJECT_NAME` with your project name, e.g. `hub-chatbot`
 1. install dependencies `npm i`
-1. copy Calcite assets `cp -r node_modules/@esri/calcite-components/dist/calcite/assets/* ./src/assets/`
+1. copy Calcite assets `cp -r node_modules/@esri/calcite-components/dist/calcite/assets/* ./src/assets/`'
 1. create new components with `npx stencil g`
+    - in the first component, import the Calcite assets
+    ```ts
+    import { setAssetPath } from "@esri/calcite-components/dist/components";
+    setAssetPath("./assets");
+    ```
+
 1. modify `src/index.html` for your component name and any props. 
     - the example `index.html` uses script to add component to DOM so you can pass complex objects and other dynamic props
 1. run the server `npm run start`
