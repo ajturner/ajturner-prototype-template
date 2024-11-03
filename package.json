@@ -32,11 +32,13 @@
     "generate": "stencil generate"
   },
   "dependencies": {
+    "@esri/calcite-design-tokens": "^2.2.0",
     "@stencil/core": "^2.13.0",
-    "@types/node": "^18.14.0"
+    "@types/node": "^18.14.0",
+    "axios": "^1.7.4"
   },
   "devDependencies": {
-    "@esri/calcite-components": "^2.8.0",
+    "@esri/calcite-components": "^2.13.2",
     "@stencil/sass": "^2.0.0",
     "@stencil/store": "^2.0.1"
   },
